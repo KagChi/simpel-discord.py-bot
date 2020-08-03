@@ -20,7 +20,7 @@ class bot(commands.Cog):
 
     @commands.command(name='ping')
     async def hello(self, ctx):
-        await ctx.send(f"Pong! **int(self.bot.latency * 1000)}ms** :ping_pong:")
+        await ctx.send(f'Pong! **{int(self.bot.latency * 1000)}ms** :ping_pong: ')
 
    
 
